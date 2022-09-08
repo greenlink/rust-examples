@@ -1,11 +1,7 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+use crate::src::mathematic;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
     #[test]
     fn it_works() {
         let result = add(2, 2);
