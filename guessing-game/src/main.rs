@@ -31,7 +31,6 @@ fn main() {
     }
 }
 
-
 fn get_guess_result(secret_number: u32, guess: u32) -> String {
     let result:String;
 
